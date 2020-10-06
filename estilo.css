@@ -1,0 +1,120 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    width: auto;
+    height: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    background-color: #ff6a00;
+
+}
+header {
+    float: right;
+    position: relative;
+    background-color: yellow;
+    color: darkblue;
+    width: 45%;
+    height: 15%;
+    margin: 0px auto;
+}
+
+.Menu {
+    float: left;
+    padding: 15px;
+}
+.Barra {
+    float: left;
+    padding: 15px;
+}
+
+.Opciones li {
+    float: left;
+    list-style: none;
+}
+
+ .Opciones li a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        border: 2px solid blue;
+ }
+
+.SectionTotal {
+    float: left;
+    position: relative;
+    background-color: none;
+    color: black;
+    width: 50%;
+    height: 10%;
+    margin: 0px auto;
+}
+
+.Section {
+    float: left;
+    position: relative;
+    background-color: #00ffff;
+    color: black;
+    width: 45%;
+    height: 15%;
+    margin: 0px auto;
+}
+
+.Section1 {
+    padding:20px;
+    float: left ;
+    position: relative;
+    background-color: red;
+    color: white;
+    width: 45%;
+    height: 35%;
+    margin: 0px auto;
+}
+.Section2 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    background-color: red;
+    color: white;
+    width: 35%;
+    height: 35%;
+    margin: 0px auto;
+}
+
+.Section3 {
+    padding: 20px;
+    float: left;
+    position: relative;
+    background-color: #00ffff;
+    color: black;
+    width: 50%;
+    height: 35%;
+    margin: 0px auto;
+}
+
+aside {
+    position: relative;
+    background-color: red;
+    width: 43%;
+    height: 55%;
+    color: #FFF;
+    float: left;
+}
+footer {
+    position: relative;
+    background-color: #AA7;
+    width: 98%;
+    height: 5%;
+    color: black;
+    clear: both;
+}
+
+header, section, sectionTotal, section2, footer, aside, article, nav {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 1%;
+}
